@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Added box-set*/
+.box-set {
+    background: lightgray;
+}
+
+body {
+    font-family:'Georgia', 'Times', 'Times New Roman', 'serif';
+    margin: 0 auto;
+}
+
+/* Added color to navbar*/
+.navbar {
+    background: #ffffff!important;
+    padding: 0!important;
+}
+
+.navbar-text {
+    padding-right: 185px!important;
+}
+
+/* Defined the container width*/
+.container {
+    width:960px;
+    margin:24px;
+    padding-top:24px;
+    font-size: 20px;
+    line-height: 28px;
+    background: #ffffff;
+    margin: 0 auto;
+    border:solid 24px;
+    border-color: lightgray;
+    
+}
+
+.navbarheader {
+   
+    font-family:'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-weight: bold;
+    background: #4aaaa5;
+    color: #ffffff;
+    margin-left: 16.5%;
+    padding: 30px;
+   
+}
+
+/* This is intended to make the navbar float rigth*/
+.navlink {
+    float:left;
+    padding: 24px;
+    list-style-type: none;
+ }
+
+ p {
+   padding-left:35px;
+ }
+    
+ 
