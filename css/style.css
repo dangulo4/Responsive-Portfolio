@@ -13,31 +13,30 @@ body {
     margin: 0 auto;
 }
 
-/* Added color to navbar*/
+/* remove padding on navbar where name goes*/
 .navbar {
-    background: #ffffff!important;
-    padding: 0!important;
+  padding: 0;
 }
 
-/* .navbar-nav mr-auto {
-    padding-right: 100px!important;
-} */
-
+/*this will move the navbar text to the right*/
 #navbarText {
-    margin-left: 500px;
-    
+    margin-left: 650px;
+ }
+
+ /* styling to the h2 in contact page*/
+#headerTwoText {
+    color: #4aaaa5;
 }
 
-/* Defined the container width*/
+/* defined the container properties*/
 .container {
-    position: relative;
-    padding-top:24px;
+    padding:24px;
     font-size: 20px;
     line-height: 28px;
     background: #ffffff;
     margin: 0 auto;
     border:solid 24px;
-    border-color: lightgray!important;
+    border-color: lightgray;
 }
 
 #navbarheader {
@@ -45,7 +44,7 @@ body {
     font-weight: bold;
     background: #4aaaa5;
     color: #ffffff;
-    margin-left: 21.60%!important;
+    margin-left: 21.60%;
     padding: 32px;
     position: relative;
 }
@@ -57,10 +56,18 @@ body {
     list-style-type: none;
  }
 
- p {
-   padding-left:35px;
- }
+ /*Add padding and border to paragraphs with class of "context"*/
+ .context {
+   padding:1.5px;
+   border: 1.5px;
+}
 
+/*indent the first sentence in first paragraph*/
+ #firstP:first-letter {
+    margin-left: 2em;
+}
+
+/*format the second container where horizontal and footer exist*/
  #container2 {
     text-align: center;
     background: #666666;
@@ -87,73 +94,26 @@ body {
     width: 100%;
 }
 
+/* media query to align the text to center and give margin */
 @media screen and (max-width: 1439px) {
-    /* Align the text to center and give margin */
     .col-md-3 {
         text-align: center;
     }
-     /* .col-md-9 {
-        margin: 1px!important;
-       
-    } */
-    /* The container's width will be 600px */
-    /* .container {
-        
-        
-        clear: both;
-    } */
-     /* Align the name */
-    /*.navbarheader {
-        margin-left: 5%!important;
-    }*/
-    /* .navbar-text {
-        padding-right: 100px!important;
-    } */
     #navbarText {
         margin-left: 300px;
-        
     }
 }
-    
+ /* media query to align the text to center and give margin */   
  @media screen and (max-width: 767px) {
-    /* Align the text to center and give margin */
     .col-md-3 {
         text-align: center;
     }
-     /* .col-md-9 {
-        margin: 1px!important;
-        font-size: .90em!important;
-    } */
-    /* The container's width will be 600px */
- 
-     /* Align the name */
-    /* .navbarheader {
-        margin-left: 15%!important;
-    }
-    .navbar-text {
-        padding-right: 100px!important;
-    } */
-   /*Ask about image size*/
-}
-
+ }
+/* media query to align the text to center and give margin */
  @media screen and (min-width: 320px) {
-    /* Align the text to center and give margin */
     .col-md-3 {
         text-align: center;
         /* margin: 25px; */
         position: relative;
-        
-    }
-  
-  
-    
-     /* The container's width will be 3500px */
- 
-    /* Align the name */
-   .navbarheader {
-        margin-left: 10%!important;
-    }
-    .navbar-text {
-        padding-right: 10px!important;
     }
 }
