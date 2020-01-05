@@ -6,24 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Me</title>
+    <!--Adding style sheet: reset, boootstrap, and custom style sheet-->
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body class="box-set">
-    <nav class="navbar navbar-light bg-light">
-        <span class="navbarheader">
-            Daniel Angulo
-        </span>
-        <span class="navbar-text">
-            <ul>
-                <li class="navlink"><a href="contact.html">Contact</a></li>
-                <li class="navlink"><a href="portfolio.html">Portfolio</a></li>
-                <li class="navlink"><a href="index.html">About</a></li>
-            </ul>
-        </span>
-    </nav>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a id="navbarheader" class="navbar-brand" href="index.html">Daniel Angulo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+          </ul>
+          <!-- <span class="navbar-text">
+            Navbar text with an inline element
+          </span> -->
+        </div>
+      </nav>
+      
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -37,10 +50,10 @@
         </div>
         <div class="row">
             <div class="col-md-3">
-                <img class="headshot" src="images/headshot.jpg">
+                <img id="smallpic" class="headshot img-thumbnail"  src="images/headshot.jpg">
             </div>
-            <div class="col-md-9">
-                <p>Aspiring Web Developer with one week of experience in designing and developing. I am originally from
+            <div class= "col-md-9">
+                <p>     Aspiring Web Developer with one week of experience in designing and developing. I am originally from
                     San Diego, CA.
                     and have always shared a passion for high energy projects where I can apply both technical and
                     analytical skills using developer languges
@@ -60,13 +73,14 @@
                 <p>With over 8 years with experience as a Business Intelligence Analyst within Healthcare, I am ready to
                     transition into a developer role.</p>
             </div>
-
+        
         </div>
-
+     
     </div>
-    <div class="container2">
-        <hr id="container-line">
-        <footer class="col-md-12">Copyright &#169;</footer>
+    
+    <div id="container2">
+        <hr id="container-line" class="col-md-12">
+        <footer id="footer" class="col-md-12">Copyright &#169;</footer>
     </div>
 </body>
 </html>
