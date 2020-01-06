@@ -13,6 +13,15 @@ body {
     margin: 0 auto;
 }
 
+#cardImage {
+    width:100%;
+    max-height:220px;
+}
+
+.card-title {
+    color: #36454f;
+    font-weight: bold;
+}
 /* remove padding on navbar where name goes*/
 .navbar {
   padding: 0;
