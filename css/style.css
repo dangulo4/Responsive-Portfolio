@@ -28,7 +28,7 @@ body {
 }
 
 /*this will move the navbar text to the right*/
-#navbarText {
+#navbarSupportedContent {
     margin-left: 650px;
  }
 
@@ -55,7 +55,7 @@ body {
     color: #ffffff;
     margin-left: 21.60%;
     padding: 32px;
-    position: relative;
+   
 }
 
 /* This is intended to make the navbar float rigth*/
@@ -103,13 +103,14 @@ body {
     width: 100%;
 }
 
+
 /* media query to align the text to center and give margin */
 @media screen and (max-width: 1439px) {
     .col-md-3 {
         text-align: center;
     }
-    #navbarText {
-        margin-left: 300px;
+    #navbarSupportedContent{
+        margin-left: 10px;
     }
 }
  /* media query to align the text to center and give margin */   
@@ -118,11 +119,11 @@ body {
         text-align: center;
     }
  }
+
+ 
 /* media query to align the text to center and give margin */
  @media screen and (min-width: 320px) {
     .col-md-3 {
         text-align: center;
-        /* margin: 25px; */
-        position: relative;
-    }
+     }
 }
