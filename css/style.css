@@ -96,6 +96,16 @@ body {
     bottom:4px;  
  }
 
+#webLanguage {
+    font-size: large;
+    font-weight: bold;
+    color: red;
+}
+
+#brand {
+    font-style: italic;
+}
+
  #footer {
     background: #666666;
     text-align: center;
